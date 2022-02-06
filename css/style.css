@@ -1,0 +1,102 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body
+{
+    background-color: aqua;
+    font-size: 100%;
+}
+.Cabecalho
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh;
+    border-bottom: 0.2vh solid black;
+}
+.LogoPrincipal
+{
+    height: 12vh;
+}
+.Menu
+{
+    display: flex;
+    gap: 4vh;
+}
+.MenuItem
+{
+    font-size: 3vh;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+
+.Principal
+{
+    margin-bottom: 0.2vh solid black;
+    height: 70vh;
+}
+.SessaoPrincipal
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ConteudoPrincipal
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.PrincipalTitulo
+{
+    padding-top: 10vh;
+    font-size: 4vh;
+}
+.PrincipalSubtitulo
+{
+    font-size: 3.5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.TituloSecundario
+{
+    padding-top: 4vh;
+    border-top: 1px solid black;
+    font-size: 30px;
+}
+.ConteudoSecundarioParagrafo
+{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap:1.5vh;
+    font-size: 2.5vh;
+}
+
+
+.Rodape
+{
+    border-top: 0.2vh solid black;
+    padding: 10px 0 10px 0;
+}
+.RedesSociais
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+.LogoRede
+{
+    height: 8vh;
+    margin-top: 2vh;
+}
